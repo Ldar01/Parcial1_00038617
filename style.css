@@ -1,9 +1,13 @@
 :root {
     font-size: calc( 0.5em + 1vw);
     color:#000000;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
+}
+
+.p1 h1{
+    font-family: 'Monoton', cursive;
 }
 
 nav{
