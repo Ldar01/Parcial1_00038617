@@ -132,8 +132,26 @@ footer{
     align-items: center;
 }
 
-footer div{
+.Contact{
+    background-color: #000000;
+    opacity: 0.5;
+    height: 70%;
+    margin: 10%;
+    padding: 2%;
+    color: white;
+    border-radius: 5%;
+}
 
+.XD{
+    display: flex;
+    flex-direction: column;
+}
+
+.XD input{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    padding: 2%;
 }
 
 @media only screen and (max-width: 1277px) {
