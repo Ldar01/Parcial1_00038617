@@ -74,8 +74,8 @@ body{
     margin: 3%;
     padding-bottom: 3%;
     padding-top: 3%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     grid-gap: 2%;
     grid-row-gap: 1em;
 }
@@ -123,7 +123,7 @@ body{
     color: orange;
 }
 
-footer{
+.us{
     height: 80vh;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -157,9 +157,23 @@ footer{
     padding: 2%;
 }
 
+
+
+footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #000000;
+    color: white;
+}
+
+.social, .more{
+    margin: 3%;
+}
+
 #mensaje{
     height: 9em;
 }
+
 
 #sub{
      color: white;
