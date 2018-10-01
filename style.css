@@ -1,6 +1,6 @@
 :root {
     font-size: calc( 0.5em + 1vw);
-    color:white;
+    color:#000000;
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -12,11 +12,13 @@ nav{
 
 nav ul{
     display: inline-flex;
-    list-style: none;  
+    justify-content: space-around;
+    width: 100%;
 }
 
 nav ul li{
-    justify-content: space-around;
+    list-style: none; 
+    color: white;
 }
     
 body{
@@ -57,9 +59,11 @@ body{
 
 .p1 p{
     display: flex;
+    color: white;
     margin: 0;
     font-size: 1em;
-    justify-content: center,
+    justify-content: center;
+    
 }
 
 
@@ -114,6 +118,23 @@ body{
     font-size:0.9em;
 }
 
+.cont a:hover{
+    background-color: white;
+    color: orange;
+}
+
+footer{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url("imagenes/contacus.jpg");
+    background-repeat: space;
+    align-items: center;
+}
+
+footer div{
+
+}
 
 @media only screen and (max-width: 1277px) {
     .Contenedor{
