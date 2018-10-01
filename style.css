@@ -1,0 +1,128 @@
+:root {
+    font-size: calc( 0.5em + 1vw);
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: #000000;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style: none;  
+}
+
+nav ul li{
+    justify-content: space-around;
+}
+    
+body{
+    margin: 0%;
+    padding: 0;
+}
+
+.p1{
+    height: 90vh;
+    background-image: url("imagenes/concierto.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.p1 a{
+    color: white;
+    font-size: 2em;
+    overflow: hidden;
+    background-size: auto;
+    margin: 1.5em auto 2em auto;
+}
+
+.p1 h1{
+    font-size: 5em;
+    font-family:'Monoton', cursive;
+    color: white;
+    font-weight: 400;
+    margin: 0%;
+    padding: 3%;
+    text-align: center;
+    z-index: 1;
+    
+}
+
+.p1 p{
+    display: flex;
+    margin: 0;
+    font-size: 1em;
+    justify-content: center,
+}
+
+
+.Contenedor{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 50% 50%;
+    margin: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-gap: 2%;
+    grid-row-gap: 1em;
+}
+
+.cuadro{
+    padding: 0%;
+    background-color:white;
+    border-radius: 1.5%;
+}
+
+.cuadro a> img{
+    height: 50%;
+    width: 100%;
+}
+
+.cont p , #hola{
+    color: rgb(151, 150, 150);
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 6%;
+}
+
+.w{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    width: 100%;
+    background-color: orange;
+    padding: 4%;
+    font-size: 100%;
+}
+
+.cont h4,p{
+    margin-top: 0%;
+    margin-bottom: 10%;
+    font-size:0.9em;
+}
+
+
+@media only screen and (max-width: 1277px) {
+    .Contenedor{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (max-width: 724px) {
+    .Contenedor{
+        grid-template-columns: 100%;
+    }
+}
